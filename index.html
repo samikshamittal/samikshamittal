@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <style>
+body {
+    width: 960px;
+    padding: 100px 0;
+    margin: 0 auto;
+    font-family: Calibri, sans-serif;
+}
+
+#nav {
+    border: 1px solid #ccc;
+    border-width: 1px 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: black;
+}
+
+#nav li {
+    display: inline;
+}
+
+#nav a {
+    padding: 10px;
+    display: inline-block;   
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: red;
+
+}
+
+.Samiksha {
+    background-color: red;
+    color: white;
+    border: 2px solid yellowgreen;
+    margin: 20px;
+    padding: 20px;
+}
+
+.Amit {
+    background-color: lightblue;
+    color: white;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+
+.Daksh {
+    background-color: pink;
+    color: white;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+
+.Deepak {
+    background-color: tomato;
+    color: white;
+    border: 2px solid orangered;
+    margin: 20px;
+    padding: 20px;
+}
+
+#bipool {
+    background-color: purple;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+
+
+<ul id="nav">
+    <li> <a href="#"> HOME </a> </li>
+    <li> <a href="#">ABOUT US</a> </li>
+    <li> <a href="#">SERVICES</a> </li>
+    <li> <a href="#">CONTACT US</a> </li>
+</ul>
+<br>
+
+<div style="border: 1px solid black; background-color: red; color: white;"> Samiksha Mittal </div>
+
+<p> i like <span style="border:1px solid yellow; background-color: green; color: white;"> green </span> color.Daksh like <span style="border: 1px solid red; background-color: pink; color: red;"> pink </span> color</p>
+
+<br>
+
+<div class="Amit"> 
+    <h2> Samiksha </h2>
+    <p> Vice President U.P </p>
+</div>
+
+<div class="Daksh"> 
+    <h2> Amit </h2>
+    <p> Founder </p>
+</div>
+
+<div id="bipool"> 
+    <h2> Deepak </h2>
+    <p> Respected Member </p>
+</div>
+
+<div class="Samiksha"> 
+    <h2> Daksh </h2>
+    <p> President U.P </p>
+</div>
+    <br>
+    <h1 id="sam"> HELLO WORLD </h1>
+    <button onclick="displayResult()"> HELLO DAKSH </button>
+    <script>
+    function displayResult() {
+        document.getElementById("sam").innerHTML="Have a nice day";
+    } 
+    </script>
+    <br> <br>
+
+    <iframe src="sam.html" height="500" width="700"> </iframe>
+    <iframe height="300px" width="100%" src="index2.html" name="iframe_a"></iframe>
+    <p> 
+        <a href="https://massmatic.biz" target="iframe_a"> MASSMATIC </a>
+    </p>
+
+
+</body>
+</html>
